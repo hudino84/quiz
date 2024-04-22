@@ -46,11 +46,7 @@ public class QuizRunner {
                     break;
                 }
             }
- /*           for (int j = 0; j <  answersResults.keySet().size() ; j++) {
-                answerIsCorrect = answersResults.get(userAnswer.toCharArray()[j]).isCorrect();
-                if(!answerIsCorrect) break;
-            }
-*/
+
             if(answerIsCorrect) {
                 this.correctAnswers++;
             }

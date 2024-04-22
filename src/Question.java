@@ -1,8 +1,6 @@
 import java.util.List;
 
 public class Question {
-    public enum QuestionType { SINGLE_ANSWER, MULTIPLE_ANSWER }
-
     private final List<Answer> answers;
     private final String text;
     private QuestionType type;
